@@ -18,7 +18,7 @@
     ]
   },
   "eslintIgnore": [
-    "server/public/main.js"
+    "dist/main.js"
   ],
   "eslintConfig": {
     "env": {
