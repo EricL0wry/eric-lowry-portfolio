@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/EricL0wry/eric-lowry-portfolio/issues"
   },
-  "homepage": "https://github.com/EricL0wry/eric-lowry-portfolio#readme"
+  "homepage": "https://github.com/EricL0wry/eric-lowry-portfolio#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
