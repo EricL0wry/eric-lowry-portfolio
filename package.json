@@ -4,7 +4,8 @@
   "description": "Eric Lowry's Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "husky": {
     "hooks": {
@@ -22,8 +23,7 @@
   ],
   "eslintConfig": {
     "env": {
-      "browser": true,
-      "node": true
+      "browser": true
     },
     "parser": "babel-eslint",
     "extends": [
@@ -93,6 +93,7 @@
     "eslint": "^7.2.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-standard": "^4.0.1",
