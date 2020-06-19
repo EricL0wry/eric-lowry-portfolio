@@ -3,6 +3,15 @@ import React from 'react';
 export default function Banner() {
 
   return (
-    <h1>This is a banner</h1>
+    <div className="banner">
+      <div className="banner-content container d-flex flex-column justify-content-center align-items-center">
+        <div className='title-container'>
+          <h1>Eric Lowry</h1>
+        </div>
+        <div className='type-container'>
+          <h4>I&aposm a person with fingers</h4>
+        </div>
+      </div>
+    </div>
   );
 }
