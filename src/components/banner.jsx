@@ -9,7 +9,7 @@ export default function Banner() {
           <h1>Eric Lowry</h1>
         </div>
         <div className='type-container'>
-          <h4>I&aposm a person with fingers</h4>
+          <h4>I&apos;m a person with fingers</h4>
         </div>
       </div>
     </div>
