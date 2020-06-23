@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from './banner';
 import About from './about';
+import ProjectList from './project-list';
+import Projects from './projects';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -13,6 +15,7 @@ export default class App extends React.Component {
       <div className="app-container">
         <Banner />
         <About />
+        <Projects projects={ProjectList}/>
       </div>
     );
   }

@@ -15,6 +15,11 @@
   height: 100%;
 }
 
+.projects{
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
 .sp-top{
   padding-top: 120px;
 }
