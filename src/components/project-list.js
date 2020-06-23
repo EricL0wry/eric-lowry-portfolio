@@ -1,5 +1,6 @@
 const projectList = [
   {
+    id: 0,
     name: 'Into the Groove',
     shortDesc: 'Record Store',
     desc: 'A mobile-responsive full-stack eCommerce vinyl record store application utilizing the PERN stack',
@@ -10,6 +11,7 @@ const projectList = [
     stack: ['JavaScript', 'React.js', 'Node.js', 'Express', 'PostgreSQL', 'Bootstrap', 'HTML5', 'CSS3']
   },
   {
+    id: 1,
     name: 'BasedSales',
     shortDesc: 'CRM Platform',
     desc: 'A mobile-first full-stack Customer Relationship Management (CRM) platform utilizing the PERN stack',
@@ -20,6 +22,7 @@ const projectList = [
     stack: ['JavaScript', 'React.js', 'Node.js', 'Express', 'PostgreSQL', 'Material-UI', 'React Router', 'API', 'HTML5', 'CSS3']
   },
   {
+    id: 2,
     name: 'Where ISS It?',
     shortDesc: 'ISS Tracker',
     desc: 'A mobile-responsive International Space Station (ISS) tracking application utilizing OOP and Google APIs',
