@@ -15,7 +15,7 @@ export default class App extends React.Component {
       <div className="app-container">
         <Banner />
         <About />
-        <Projects props={ProjectList}/>
+        <Projects projects={ProjectList}/>
       </div>
     );
   }
