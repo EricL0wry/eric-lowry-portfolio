@@ -4,6 +4,7 @@ import About from './about';
 import ProjectList from './project-list';
 import Projects from './projects';
 import Skills from './skills';
+import SkillsList from './skills-list';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ export default class App extends React.Component {
         <Banner />
         <About />
         <Projects projects={ProjectList}/>
-        <Skills />
+        <Skills skills={SkillsList}/>
       </div>
     );
   }
