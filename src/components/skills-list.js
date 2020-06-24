@@ -16,8 +16,33 @@ const skillsList = [
   },
   {
     id: 4,
+    name: 'PostgreSQL',
+    img: './images/skills/postgresql-original.svg'
+  },
+  {
+    id: 5,
     name: 'HTML5',
     img: './images/skills/html5-original.svg'
+  },
+  {
+    id: 6,
+    name: 'CSS3',
+    img: './images/skills/css3-original.svg'
+  },
+  {
+    id: 7,
+    name: 'Express',
+    img: './images/skills/express-original.svg'
+  },
+  {
+    id: 8,
+    name: 'Bootstrap 4',
+    img: './images/skills/bootstrap-plain.svg'
+  },
+  {
+    id: 9,
+    name: 'jQuery',
+    img: './images/skills/jquery-original.svg'
   }
 ];
 
