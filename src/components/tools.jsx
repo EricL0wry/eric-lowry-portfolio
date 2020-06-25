@@ -8,7 +8,7 @@ export default function Tools(props) {
   });
 
   return (
-    <section className="tools">
+    <section className="tools grey">
       <div className="tools-content container sp-top sp-bottom">
         <div className="tools-title row flex-column justify-content-center align-items-center">
           <h4>Tools</h4>
