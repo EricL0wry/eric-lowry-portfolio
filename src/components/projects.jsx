@@ -8,7 +8,7 @@ export default function Projects(props) {
   });
 
   return (
-    <section className="projects">
+    <section className="projects grey">
       <div className="projects-content container sp-top sp-bottom">
         <div className="projects-title row flex-column justify-content-center align-items-center">
           <h4>Portfolio</h4>

@@ -5,6 +5,8 @@ import ProjectList from './project-list';
 import Projects from './projects';
 import Skills from './skills';
 import SkillsList from './skills-list';
+import Tools from './tools';
+import ToolsList from './tools-list';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,6 +21,7 @@ export default class App extends React.Component {
         <About />
         <Projects projects={ProjectList}/>
         <Skills skills={SkillsList}/>
+        <Tools tools={ToolsList} />
       </div>
     );
   }
