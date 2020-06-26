@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from './banner';
 import About from './about';
-import ProjectList from './project-list';
+import ProjectList from './component-data/project-list';
 import Projects from './projects';
 import Skills from './skills';
-import SkillsList from './skills-list';
+import SkillsList from './component-data/skills-list';
 import Tools from './tools';
-import ToolsList from './tools-list';
+import ToolsList from './component-data/tools-list';
 import Contact from './contact';
 
 export default class App extends React.Component {
