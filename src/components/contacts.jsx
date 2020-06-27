@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact(props) {
+export default function Contacts(props) {
   return (
     <section className="contact">
       <div className="contact-content container sp-top sp-bottom">

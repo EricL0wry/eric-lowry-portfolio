@@ -7,7 +7,7 @@ import Skills from './skills';
 import SkillsList from './component-data/skills-list';
 import Tools from './tools';
 import ToolsList from './component-data/tools-list';
-import Contact from './contact';
+import Contacts from './contacts';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class App extends React.Component {
         <Projects projects={ProjectList}/>
         <Skills skills={SkillsList}/>
         <Tools tools={ToolsList} />
-        <Contact />
+        <Contacts />
       </div>
     );
   }
