@@ -2,6 +2,10 @@ import React from 'react';
 import Contact from './contact';
 
 export default function Contacts(props) {
+  const contactCards = props.contacts.map(contact => {
+    const { id } = contact;
+    return <Contact key={id} contact={contact} />;
+  });
 
   return (
     <section className="contact">
@@ -11,7 +15,7 @@ export default function Contacts(props) {
           <h1>Get in touch</h1>
         </div>
         <div className="contact-cards row">
-          <Contact />
+          {contactCards}
         </div>
       </div>
     </section>
