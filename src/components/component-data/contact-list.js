@@ -1,6 +1,7 @@
 const contactList = [
   {
     id: 1,
+    icon: 'fas fa-map-pin',
     type: 'single',
     label: 'Location',
     text: 'Orange County, CA',
@@ -8,6 +9,7 @@ const contactList = [
   },
   {
     id: 2,
+    icon: 'far fa-envelope',
     type: 'single',
     label: 'Email',
     text: 'ericmichaellowry@gmail.com',
@@ -15,6 +17,7 @@ const contactList = [
   },
   {
     id: 3,
+    icon: 'fas fa-mobile-alt',
     type: 'single',
     label: 'Phone',
     text: '+1 (714) 482-3670',
@@ -22,6 +25,7 @@ const contactList = [
   },
   {
     id: 4,
+    icon: 'fas fa-share-alt',
     type: 'multiple',
     label: 'Social & Resume',
     text: [
