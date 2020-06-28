@@ -1,7 +1,8 @@
 import React from 'react';
 
 export default function MultiLink(props) {
+  const { icon, url } = props.linkIcon;
   return (
-    <h1>multi link</h1>
+    <a href={url} target="_blank" rel="noreferrer noopener"><i className={icon}></i></a>
   );
 }
