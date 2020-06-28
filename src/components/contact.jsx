@@ -1,4 +1,5 @@
 import React from 'react';
+import MultiLink from './multi-link';
 
 export default function Contact(props) {
   const { icon, type, text, label, url } = props.contact;
@@ -7,7 +8,16 @@ export default function Contact(props) {
   if (type === 'single') {
     contactLink = <h6><a href={url} target="_blank" rel="noreferrer noopener">{text}</a></h6>;
   } else {
-    contactLink = <h1>Multiple</h1>;
+    const linkIcons = text.map(linkIcon => {
+      const { id } = linkIcon;
+      return <MultiLink key={id} linkIcon={linkIcon} />;
+    });
+
+    contactLink = (
+      <div className="d-flex">
+        {linkIcons}
+      </div>
+    );
   }
 
   return (
