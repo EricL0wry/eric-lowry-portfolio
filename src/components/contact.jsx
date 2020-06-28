@@ -8,16 +8,6 @@ export default function Contact(props) {
   if (type === 'single') {
     contactLink = <h6><a href={url} target="_blank" rel="noreferrer noopener">{text}</a></h6>;
   } else {
-    // const linkIcons = text.map(linkIcon => {
-    //   const { id } = linkIcon;
-    //   return <MultiLink key={id} linkIcon={linkIcon} />;
-    // });
-
-    // contactLink = (
-    //   <div className="d-flex">
-    //     {linkIcons}
-    //   </div>
-    // );
     contactLink = <MultiLink links={text} />;
   }
 
