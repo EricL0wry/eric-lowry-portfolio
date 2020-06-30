@@ -9,6 +9,7 @@ import Tools from './tools';
 import ToolsList from './component-data/tools-list';
 import Contacts from './contacts';
 import ContactList from './component-data/contact-list';
+import Footer from './footer';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -25,6 +26,7 @@ export default class App extends React.Component {
         <Skills skills={SkillsList}/>
         <Tools tools={ToolsList} />
         <Contacts contacts={ContactList} />
+        <Footer />
       </div>
     );
   }

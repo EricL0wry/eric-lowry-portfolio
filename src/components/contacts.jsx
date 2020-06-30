@@ -8,13 +8,13 @@ export default function Contacts(props) {
   });
 
   return (
-    <section className="contact">
-      <div className="contact-content container sp-top sp-bottom">
-        <div className="contact-title row flex-column justify-content-center align-items-center">
+    <section className="contacts">
+      <div className="contacts-content container sp-top sp-bottom">
+        <div className="contacts-title row flex-column justify-content-center align-items-center">
           <h4>Contact</h4>
           <h1>Get in touch</h1>
         </div>
-        <div className="contact-cards row">
+        <div className="contacts-cards row">
           {contactCards}
         </div>
       </div>
