@@ -3,10 +3,10 @@ import NavItem from './nav-item';
 
 export default function Nav() {
   return (
-    <nav className="navbar fixed-top navbar-light navbar-expand-xl">
+    <nav className="navbar fixed-top navbar-light bg-light navbar-expand-xl">
       <div className="container">
         <span className="navbar-brand">Eric Lowry</span>
-        <div className="collapse navbar-collapse">
+        <div className="collapse navbar-collapse justify-content-end">
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavItem />
