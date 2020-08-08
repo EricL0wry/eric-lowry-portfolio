@@ -8,7 +8,7 @@ export default function Contacts(props) {
   });
 
   return (
-    <section className="contacts">
+    <section className="contacts" id="contacts">
       <div className="contacts-content container sp-top sp-bottom">
         <div className="contacts-title row flex-column justify-content-center align-items-center">
           <h4>Contact</h4>
