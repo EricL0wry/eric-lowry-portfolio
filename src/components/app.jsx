@@ -1,4 +1,6 @@
 import React from 'react';
+import Nav from './nav';
+import NavItemList from './component-data/nav-item-list';
 import Banner from './banner';
 import About from './about';
 import ProjectList from './component-data/project-list';
@@ -20,10 +22,11 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="app-container">
+        <Nav navItems={NavItemList} />
         <Banner />
         <About />
-        <Projects projects={ProjectList}/>
-        <Skills skills={SkillsList}/>
+        <Projects projects={ProjectList} />
+        <Skills skills={SkillsList} />
         <Tools tools={ToolsList} />
         <Contacts contacts={ContactList} />
         <Footer />
